@@ -18,11 +18,9 @@ class Persona {
          apellido: this.apellido,
          edad: this.edad,
          domicilio: this.domicilio
-      }
-
-   }
-
-}
+      };
+   }; console.log(detalle('Diego', 'parra', 23, 'apto 401'));
+};  
 
 function crearInstanciaPersona(nombre, apellido, edad, domicilio) {
    // En este ejercicio debes crear una instancia de la clase construida en el ejercicio anterior.
